@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIDAD 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="Modelo.png" alt="Modelo de procesador" class="logo-img">
+        </div>
+        <h1>UNIDAD 2</h1>
+    </header>
+
+    <section class="content">
+        <article>
+            <h2>2.1 Organización del procesador</h2>
+            <p>La Unidad de Procesamiento (CPU) controla el funcionamiento del computador y lleva a cabo sus funciones de procesamiento de datos. Un procesador incluye tanto registros visibles por el usuario como registros de control/estado.</p>
+            <figure>
+                <img src="21.jpg" alt="Diagrama de la organización del procesador" class="image">
+                <figcaption>Organización básica del procesador</figcaption>
+            </figure>
+        </article>
+
+        <article>
+            <h2>2.2 Estructura de registros</h2>
+            <p>Se emplean para controlar las instrucciones en ejecución, manejar direccionamiento de memoria y propiciar la capacidad aritmética. Los registros de CPU pueden ser de tres tipos: datos, direcciones e índice.</p>
+            <figure>
+                <img src="22.jpg" alt="Tipos de registros en el procesador" class="image">
+                <figcaption>Tipos de registros en el procesador</figcaption>
+            </figure>
+        </article>
+
+        <article>
+            <h3>2.2.1 Registros visibles para el usuario</h3>
+            <p>Estos registros pueden almacenar tanto datos como direcciones, y se usan en operaciones entre registros o con la memoria (RAM).</p>
+        </article>
+
+        <article>
+            <h3>2.2.2 Registros de control y de estado</h3>
+            <p>Los registros de control gestionan el funcionamiento del procesador. Los registros de estado contienen bits que reflejan el estado del procesador tras ejecutar una instrucción.</p>
+        </article>
+
+        <article>
+            <h2>2.3 El ciclo de instrucción</h2>
+            <p>El ciclo de instrucción es el proceso que lleva a cabo el procesador para ejecutar una instrucción: búsqueda, decodificación, ejecución y almacenamiento.</p>
+            <figure>
+                <img src="231.gif" alt="Ciclo de instrucción" class="image">
+                <figcaption>Ciclo de instrucción en el procesador</figcaption>
+            </figure>
+        </article>
+
+        <article>
+            <h3>2.3.1 Ciclo Fetch-Decode-Execute</h3>
+            <p>Es el proceso por el cual el procesador obtiene, decodifica y ejecuta una instrucción de lenguaje máquina.</p>
+        </article>
+
+        <article>
+            <h3>2.3.2 Segmentación de instrucciones</h3>
+            <p>La segmentación divide el ciclo de instrucción en etapas que pueden ejecutarse simultáneamente, mejorando la eficiencia del procesador.</p>
+            <figure>
+                <img src="232.png" alt="Segmentación de instrucciones" class="image">
+                <figcaption>Segmentación de instrucciones en el procesador</figcaption>
+            </figure>
+        </article>
+
+        <article>
+            <h3>2.3.3 Conjunto de instrucciones: características y funciones</h3>
+            <p>La segmentación de instrucciones mejora la eficiencia del procesamiento, y los procesadores con esta tecnología se conocen como "pipeline processors".</p>
+        </article>
+
+        <article>
+            <h3>2.3.4 Modos de direccionamiento</h3>
+            <p>Los modos de direccionamiento indican cómo se localizan los operandos en la memoria o los registros. Algunos de los modos son: direccionamiento por registro, direccionamiento inmediato, y direccionamiento relativo al PC.</p>
+        </article>
+
+        <article>
+            <h2>2.4 Casos de estudio de CPU reales</h2>
+            <p>Un ejemplo de un CPU real es el MOTOROLA 68000, que utiliza registros de datos y punteros. Este procesador tiene dos bancos de 8 registros de 32 bits, y un contador de programa de 32 bits.</p>
+        </article>
+    </section>
+
+    <footer>
+        <a href="Arquitectura de computadoras.html" class="back-button">Regresar</a>
+    </footer>
+
+</body>
+
+</html>
